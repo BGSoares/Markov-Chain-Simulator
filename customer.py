@@ -4,5 +4,5 @@ class Customer:
     in a MCMC simulation
     """
 
-    def __init__(self):
-        pass
+    def __init__(self, customer_no:int):
+        self.customer_no = customer_no
